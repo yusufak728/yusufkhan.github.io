@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student in Electrical Engineering, Penn State
+subtitle: "<strong>PhD Student</strong> in Electrical Engineering, Penn State"
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>311 Electrical Engineering East</p>
+    <p>311 electrical engineering east</p>
     <p>90 Pollock Rd</p>
     <p>State College, PA 16804</p>
 
