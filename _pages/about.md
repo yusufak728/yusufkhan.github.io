@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>311 electrical engineering east</p>
+    <p style="white-space: nowrap;">311 Electrical Engineering East</p>
     <p>90 Pollock Rd</p>
     <p>State College, PA 16804</p>
 
