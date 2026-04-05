@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: "<strong>PhD Student</strong> in Electrical Engineering, Penn State"
 
