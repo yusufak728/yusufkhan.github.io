@@ -32,3 +32,28 @@ I am a PhD student in Electrical Engineering at The Pennsylvania State Universit
 For my doctoral research, I focus heavily on Neuro-AI, exploring how neuroscience-inspired learning and neuromorphic computing can naturally improve fault tolerance and resource efficiency. Beyond my immediate lab work, I am fascinated by the capabilities of large language models and the intersection of AI with healthcare, particularly in biomedical signal analysis.
 
 Outside of academia, my interest in health translates into a personal passion for wellness and longevity. To disconnect, I focus on staying active with strength training, exploring new places, and spending time outdoors hiking.
+
+<div class="scholar-stats mt-3">
+  <a href="https://scholar.google.com/citations?user=npbfYnMAAAAJ" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+    <div class="row justify-content-start g-2">
+      <div class="col-auto">
+        <div class="card scholar-stat-card text-center px-3 py-2">
+          <div class="scholar-stat-value">85+</div>
+          <div class="scholar-stat-label">Citations</div>
+        </div>
+      </div>
+      <div class="col-auto">
+        <div class="card scholar-stat-card text-center px-3 py-2">
+          <div class="scholar-stat-value">5</div>
+          <div class="scholar-stat-label">h-index</div>
+        </div>
+      </div>
+      <div class="col-auto">
+        <div class="card scholar-stat-card text-center px-3 py-2">
+          <div class="scholar-stat-value">3</div>
+          <div class="scholar-stat-label">i10-index</div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
