@@ -405,16 +405,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/yusufkhan.github.io/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-completed-my-3-month-mitacs-internship-at-athabasca-university-canada-under-dr-vive-kumar",
+          title: 'Completed my 3-month Mitacs internship at Athabasca University, Canada under Dr. Vive Kumar....',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-completed-my-bachelor-s-in-electronics-engineering-with-honors-from-aligarh-muslim-university-india",
+          title: 'Completed my Bachelor’s in Electronics Engineering with honors from Aligarh Muslim University, India....',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/yusufkhan.github.io/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-started-my-phd-at-the-neuromorphic-computing-lab-at-penn-state-under-dr-abhronil-sengupta",
+          title: 'Started my PhD at the Neuromorphic Computing Lab at Penn State under Dr....',
+          description: "",
+          section: "News",},{id: "news-passed-my-phd-qualifying-exam",
+          title: 'Passed my PhD qualifying exam!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
