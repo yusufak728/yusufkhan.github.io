@@ -33,19 +33,21 @@ For my doctoral research, I focus heavily on Neuro-AI, exploring how neuroscienc
 
 Outside of academia, my interest in health translates into a personal passion for wellness and longevity. To disconnect, I focus on staying active with strength training, exploring new places, and spending time outdoors hiking.
 
-<a href="https://scholar.google.com/citations?user=npbfYnMAAAAJ" target="_blank" rel="noopener noreferrer" class="scholar-stats-bar mt-3">
-  <div class="scholar-stat">
-    <span class="scholar-stat-value">85+</span>
-    <span class="scholar-stat-label">Citations</span>
-  </div>
-  <div class="scholar-stat-divider"></div>
-  <div class="scholar-stat">
-    <span class="scholar-stat-value">5</span>
-    <span class="scholar-stat-label">h-index</span>
-  </div>
-  <div class="scholar-stat-divider"></div>
-  <div class="scholar-stat">
-    <span class="scholar-stat-value">3</span>
-    <span class="scholar-stat-label">i10-index</span>
-  </div>
-</a>
+<div class="mt-3">
+  <a href="https://scholar.google.com/citations?user=npbfYnMAAAAJ" target="_blank" rel="noopener noreferrer" class="scholar-stats-bar">
+    <div class="scholar-stat">
+      <span class="scholar-stat-value">85+</span>
+      <span class="scholar-stat-label">Citations</span>
+    </div>
+    <div class="scholar-stat-divider"></div>
+    <div class="scholar-stat">
+      <span class="scholar-stat-value">5</span>
+      <span class="scholar-stat-label">h-index</span>
+    </div>
+    <div class="scholar-stat-divider"></div>
+    <div class="scholar-stat">
+      <span class="scholar-stat-value">3</span>
+      <span class="scholar-stat-label">i10-index</span>
+    </div>
+  </a>
+</div>
