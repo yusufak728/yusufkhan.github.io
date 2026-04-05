@@ -6,7 +6,7 @@ subtitle: "<strong>PhD Student</strong> in Electrical Engineering, Penn State"
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p style="white-space: nowrap;">311 Electrical Engineering East</p>
