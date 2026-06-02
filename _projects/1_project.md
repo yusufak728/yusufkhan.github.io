@@ -1,5 +1,6 @@
 ---
 layout: page
+published: false
 title: "SRN-C: Astrocyte-Inspired Self-Repair for Fault-Tolerant Neural Networks"
 description: A neuroscience-grounded mechanism to recover accuracy in EP-trained networks under permanent synaptic faults, without fault localization.
 img:

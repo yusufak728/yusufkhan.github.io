@@ -1,5 +1,6 @@
 ---
 layout: page
+published: false
 title: "Theoretical Analysis of Augmented Equilibrium Propagation"
 description: Proving gradient-equivalence and characterizing implicit regularization induced by astrocyte-motivated auxiliary state variables in EP dynamics.
 img:
