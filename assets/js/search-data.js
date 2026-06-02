@@ -410,17 +410,7 @@ ninja.data = [{
           section: "News",},{id: "news-passed-my-phd-qualifying-exam",
           title: 'Passed my PhD qualifying exam!',
           description: "",
-          section: "News",},{id: "projects-srn-c-astrocyte-inspired-self-repair-for-fault-tolerant-neural-networks",
-          title: 'SRN-C: Astrocyte-Inspired Self-Repair for Fault-Tolerant Neural Networks',
-          description: "A neuroscience-grounded mechanism to recover accuracy in EP-trained networks under permanent synaptic faults, without fault localization.",
-          section: "Projects",handler: () => {
-              window.location.href = "/yusufkhan.github.io/projects/1_project/";
-            },},{id: "projects-theoretical-analysis-of-augmented-equilibrium-propagation",
-          title: 'Theoretical Analysis of Augmented Equilibrium Propagation',
-          description: "Proving gradient-equivalence and characterizing implicit regularization induced by astrocyte-motivated auxiliary state variables in EP dynamics.",
-          section: "Projects",handler: () => {
-              window.location.href = "/yusufkhan.github.io/projects/2_project/";
-            },},{id: "projects-sleep-stage-classification-from-single-channel-eeg",
+          section: "News",},{id: "projects-sleep-stage-classification-from-single-channel-eeg",
           title: 'Sleep Stage Classification from Single-Channel EEG',
           description: "5-class sleep staging using engineered EEG features; 96.2% validation accuracy with Ensemble Bagged Trees. Published at ICCCI 2024.",
           section: "Projects",handler: () => {
