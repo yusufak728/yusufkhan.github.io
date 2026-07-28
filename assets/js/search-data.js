@@ -410,7 +410,15 @@ ninja.data = [{
           section: "News",},{id: "news-passed-my-phd-qualifying-exam",
           title: 'Passed my PhD qualifying exam!',
           description: "",
-          section: "News",},{id: "projects-sleep-stage-classification-from-single-channel-eeg",
+          section: "News",},{id: "news-my-first-phd-paper-star-a-repair-method-for-ai-models-on-memristive-hardware-affected-by-permanent-faults-is-now-on-arxiv",
+          title: 'My first PhD paper, STAR — a repair method for AI models on...',
+          description: "",
+          section: "News",},{id: "projects-star-keeping-ai-models-reliable-when-hardware-memory-fails",
+          title: 'STAR: Keeping AI Models Reliable When Hardware Memory Fails',
+          description: "A retraining-based repair method for AI models on memristive hardware that develops permanent faults, needing no extra hardware or fault localization.",
+          section: "Projects",handler: () => {
+              window.location.href = "/yusufkhan.github.io/projects/1_project/";
+            },},{id: "projects-sleep-stage-classification-from-single-channel-eeg",
           title: 'Sleep Stage Classification from Single-Channel EEG',
           description: "5-class sleep staging using engineered EEG features; 96.2% validation accuracy with Ensemble Bagged Trees. Published at ICCCI 2024.",
           section: "Projects",handler: () => {
