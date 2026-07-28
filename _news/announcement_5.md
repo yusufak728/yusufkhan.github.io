@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My first PhD paper, [STAR](https://arxiv.org/abs/2607.15415) — a repair method for AI models on memristive hardware affected by permanent faults — is now on arXiv!
+My first PhD paper, [STAR](https://arxiv.org/abs/2607.15415), a repair method for AI models on memristive hardware affected by permanent faults, is now on arXiv!

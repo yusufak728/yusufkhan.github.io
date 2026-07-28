@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my PhD at the [Neuromorphic Computing Lab](https://sites.psu.edu/sengupta/) at Penn State under Dr. Abhronil Sengupta.
+Started my PhD at the NeuroAI Lab at Penn State under [Dr. Abhronil Sengupta](https://sites.psu.edu/sengupta/).

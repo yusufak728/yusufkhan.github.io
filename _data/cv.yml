@@ -5,7 +5,7 @@ cv:
   phone: "+1-(814)-280-2631"
   location: State College, PA
   image: ""
-  summary: PhD student in Electrical Engineering at Penn State working on neuroscience-inspired learning algorithms and their robustness in neuromorphic settings. Research spans biologically-plausible local learning rules (Equilibrium Propagation), astrocyte-inspired neural computation, fault-tolerant training, and spiking neural networks.
+  summary: "PhD student (Penn State EE) working on efficient and reliable machine learning: training algorithms that skip the memory-heavy backward pass, software-level repair for AI models corrupted by hardware faults, and retrieval-augmented generation. Hands-on experience building RAG pipelines (Sentence Transformers, FAISS, HuggingFace) and implementing LLM architectures; coursework in large language models."
 
   social_networks:
     - network: GitHub
@@ -24,8 +24,8 @@ cv:
         end_date: 2029-05-01
         score: "4.0 / 4.0"
         highlights:
-          - "Adviser: Dr. Abhronil Sengupta, Neuromorphic Computing Lab"
-          - "Relevant Coursework: Probability & Stochastic Processes; Introduction to Neural Networks"
+          - "Adviser: Dr. Abhronil Sengupta, NeuroAI Lab"
+          - "Relevant Coursework: Probability & Stochastic Processes; Introduction to Neural Networks; Socially Responsible AI: Large Language Models"
 
       - institution: Aligarh Muslim University
         location: Aligarh, India
@@ -45,9 +45,18 @@ cv:
         start_date: 2024-08-01
         end_date: present
         highlights:
-          - "Developed SRN-C, an astrocyte-inspired self-repair mechanism for EP-trained networks under permanent synaptic faults; validated on MNIST and CIFAR-10 without fault localization."
-          - "Investigating augmented EP learning dynamics grounded in astrocytic modulation; proved gradient-equivalence with backpropagation and characterized the resulting implicit regularization structure."
-          - "Built and maintained GPU training pipelines in PyTorch/CUDA: 3-phase symmetric EP, fault injection protocols, and systematic accuracy/efficiency analyses."
+          - "Developed STAR ([arXiv:2607.15415](https://arxiv.org/abs/2607.15415)): a retraining-based repair method for AI models deployed on memory chips that develop permanent hardware faults, requiring no additional hardware or fault localization. Before deployment, a compact snapshot of the healthy model's internal states is stored (20x-191x smaller than a full checkpoint); after faults appear, this snapshot guides retraining to recover accuracy without any knowledge of which memory cells are broken. Proved the augmented training dynamics retain fixed-point convergence guarantees under Lipschitz-continuity conditions. Achieves +59% accuracy recovery over standard retraining on CNN and MLP benchmarks."
+          - "Working on scaling Equilibrium Propagation (EP), a local learning rule that computes weight updates without a backward pass, to deeper network architectures and developing methods to improve its computational efficiency; also investigating its theoretical foundations, including gradient-equivalence to backpropagation in appropriate limits, with a neuroscience-inspired angle drawing on glial-cell-mediated regulation of synaptic plasticity."
+          - "Built PyTorch/CUDA training pipelines for fault-injection experiments: simulating permanent memory failures at rates up to 90%, convergence diagnostics, and sweeps across MLP and CNN architectures."
+
+      - company: National Remote Sensing Centre, ISRO
+        position: Research Intern
+        location: New Delhi, India
+        start_date: 2022-05-01
+        end_date: 2022-12-01
+        highlights:
+          - "Supervisor: Ms. Khushboo Mirza"
+          - "Built an end-to-end ML pipeline (Python, scikit-learn) for industrial site detection in multispectral Sentinel-2 satellite imagery, achieving 96.4% classification accuracy via discriminative multi-band spectral feature engineering."
 
       - company: Athabasca University
         position: Mitacs Globalink Research Intern
@@ -58,65 +67,58 @@ cv:
           - "Supervisor: Prof. Vivekanandan S. Kumar"
           - "Conducted structured literature synthesis on 4IR technologies (AI, blockchain) and their impacts on higher education; produced a landscape analysis and implications report."
 
-      - company: National Remote Sensing Centre, ISRO
-        position: Research Intern
-        location: New Delhi, India
-        start_date: 2022-05-01
-        end_date: 2022-12-01
-        highlights:
-          - "Supervisor: Ms. Khushboo Mirza"
-          - "Built an ML pipeline (Python, scikit-learn) to classify industrial brick kilns in multispectral Sentinel-2 imagery, achieving 96.4% accuracy on a large-scale geospatial dataset."
-
     Skills:
-      - name: Programming
-        level: ""
+      - name: Languages
         icon: fa-solid fa-code
-        keywords: "Python (PyTorch, NumPy, SciPy, Pandas, Matplotlib); MATLAB; C; LaTeX"
+        keywords:
+          - Python
+          - MATLAB
 
-      - name: Machine Learning & Neuromorphic
-        level: ""
-        icon: fa-solid fa-brain
-        keywords: "Equilibrium Propagation; Spiking Neural Networks (LIF); STDP; Local Learning Rules; Fault-Tolerant Training; CNNs; LSTMs"
+      - name: Frameworks
+        icon: fa-solid fa-layer-group
+        keywords:
+          - PyTorch
+          - NumPy
+          - SciPy
+          - Pandas
+          - Matplotlib
+          - HuggingFace Transformers
+          - Sentence Transformers
+          - FAISS
+          - scikit-learn
 
-      - name: Tools & Hardware
-        level: ""
+      - name: Systems
         icon: fa-solid fa-microchip
-        keywords: "GPU Computing (PyTorch/CUDA); VSCode; MobaXterm; Linux CLI; Git; Arduino; Raspberry Pi"
+        keywords:
+          - CUDA
+          - Linux CLI
+          - Git
+          - VSCode
+          - MobaXterm
 
-      - name: Data & Signals
-        level: ""
-        icon: fa-solid fa-wave-square
-        keywords: "EEG/ECG Signal Analysis; Feature Engineering; Biomedical Imaging"
+    Projects:
+      - name: "STAR: Keeping AI Models Reliable When Hardware Memory Fails"
+        date: 2026-07-01
+        url: https://arxiv.org/abs/2607.15415
+        summary: "Graduate Research Project, Penn State"
+        highlights:
+          - "Designed an astrocyte-inspired repair mechanism for Equilibrium Propagation-trained networks under permanent stuck-at hardware faults; recovered +59% accuracy on CNN/CIFAR-10 and +52% on MLP/MNIST over standard retraining across fault rates up to 90%, using repair signals 20x-191x smaller than a full model checkpoint, with no fault localization required."
 
-    Awards:
-      - title: Melvin P. Bloom Memorial Graduate Fellowship in Electrical Engineering
-        date: 2024
-        awarder: The Pennsylvania State University
-        summary: Graduate fellowship awarded in the Department of Electrical Engineering at Penn State.
-
-      - title: IEEE Richard E. Merwin Student Scholarship
-        date: 2023
-        awarder: IEEE Computer Society
-        summary: "$1,000 scholarship awarded for outstanding contributions to the IEEE community."
-
-      - title: DAAD WISE Scholar
-        date: 2023
-        awarder: DAAD (German Academic Exchange Service)
-        url: https://www.daad.de/en/
-        summary: Fully funded research fellowship at University of Kiel, Germany. Competitive international selection.
-
-      - title: Mitacs Globalink Research Internship
-        date: 2023
-        awarder: Mitacs
-        url: https://www.mitacs.ca/
-        summary: Fully funded competitive research internship at Athabasca University, Canada.
-
-      - title: President (Chair), IEEE Robotics & Automation Society
-        date: 2023
-        awarder: IEEE RAS, ZHCET/AMU Chapter
-        summary: Led a team of 30 members as founding President (Chair) of the IEEE RAS chapter at ZHCET, Aligarh Muslim University, since April 2023.
+      - name: "Neuromorphic RAG System"
+        summary: "Personal Project"
+        highlights:
+          - "Built a retrieval-augmented generation pipeline over a corpus of ML research papers, combining Sentence Transformers for dense embeddings, FAISS for semantic search, and Flan-T5 for grounded answer generation; implemented full ingestion pipeline from PDF extraction through FAISS index construction."
 
     Publications:
+      - title: "STAR: Astrocyte-Inspired State-Augmented Repair for Supervised Memristive AI Hardware Systems"
+        authors:
+          - Yusuf Ahmed Khan
+          - Zhuangyu Han
+          - Abhronil Sengupta
+        publisher: "arXiv:2607.15415"
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2607.15415
+
       - title: "Enhancing Sleep Wake Classification Accuracy: Unveiling the Significance of KL Divergence in EEG Signal Analysis"
         authors:
           - Yusuf Ahmed Khan
@@ -143,3 +145,25 @@ cv:
         publisher: "Sensors, 23(3), 1275"
         releaseDate: 2023
         url: https://www.mdpi.com/1424-8220/23/3/1275
+
+    Awards:
+      - title: DAAD WISE Scholar
+        date: 2023
+        awarder: DAAD (German Academic Exchange Service)
+        url: https://www.daad.de/en/
+        summary: Fully funded research fellowship at University of Kiel, Germany. Competitive international selection.
+
+      - title: "Melvin P. Bloom Memorial Fellowship & Waynick Graduate Scholarship in Electrical Engineering"
+        date: 2024
+        awarder: The Pennsylvania State University
+        summary: "$8,000 total combined award."
+
+      - title: IEEE Richard E. Merwin Student Scholarship
+        date: 2023
+        awarder: IEEE Computer Society
+        summary: "$1,000 scholarship awarded for outstanding contributions to the IEEE community."
+
+      - title: President (Chair), IEEE Robotics & Automation Society
+        date: 2023
+        awarder: IEEE RAS, ZHCET/AMU Chapter
+        summary: Led a team of 30 members as founding President (Chair) of the IEEE RAS chapter at ZHCET, Aligarh Muslim University, since April 2023.

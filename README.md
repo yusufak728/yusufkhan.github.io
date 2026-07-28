@@ -1,4 +1,4 @@
-# Yusuf Ahmed Khan — Personal Website
+# Yusuf Ahmed Khan's Personal Website
 
 Personal academic website of Yusuf Ahmed Khan, PhD student in Electrical Engineering at The Pennsylvania State University.
 
@@ -6,7 +6,7 @@ Personal academic website of Yusuf Ahmed Khan, PhD student in Electrical Enginee
 
 ## Research
 
-Neuromorphic computing, biologically-plausible learning (Equilibrium Propagation), fault-tolerant neural networks, and efficient AI. Advised by [Dr. Abhronil Sengupta](https://sites.psu.edu/sengupta/) at the Neuromorphic Computing Lab, Penn State.
+Neuromorphic computing, biologically-plausible learning (Equilibrium Propagation), fault-tolerant neural networks, and efficient AI. Advised by [Dr. Abhronil Sengupta](https://sites.psu.edu/sengupta/) at the NeuroAI Lab, Penn State.
 
 ## Contact
 

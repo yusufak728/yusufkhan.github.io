@@ -12,10 +12,10 @@ Equilibrium Propagation (EP) is a biologically-plausible learning algorithm that
 
 ### Key Results
 
-- **Gradient equivalence**: Proved that the augmented EP contrastive update recovers the standard backpropagation gradient in the appropriate theoretical limit — establishing that the biological augmentation does not break the learning rule's correctness.
+- **Gradient equivalence**: Proved that the augmented EP contrastive update recovers the standard backpropagation gradient in the appropriate theoretical limit, establishing that the biological augmentation does not break the learning rule's correctness.
 - **Implicit regularization**: Characterized how the auxiliary state buffers induce implicit weight regularization in the reduced EP equilibrium landscape. The structure of this regularization distinguishes augmented EP from standard EP even when gradients match in expectation.
 - **Finite-rate corrections**: At finite nudging rates, the augmentation introduces a dynamic tracking signal that further separates the learning dynamics from vanilla EP.
-- **Neural state invariance**: Proved that the neural state dynamics at equilibrium are unchanged by the augmentation — isolating the effect to the weight update rule only.
+- **Neural state invariance**: Proved that the neural state dynamics at equilibrium are unchanged by the augmentation, isolating the effect to the weight update rule only.
 
 ### Status
 

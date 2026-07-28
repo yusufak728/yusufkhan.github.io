@@ -7,7 +7,7 @@ importance: 1
 category: research
 ---
 
-Neuromorphic hardware such as memristor crossbars is prone to permanent stuck-at faults that degrade neural network accuracy. Existing approaches typically require fault localization or full model retraining — both expensive in hardware-constrained settings.
+Neuromorphic hardware such as memristor crossbars is prone to permanent stuck-at faults that degrade neural network accuracy. Existing approaches typically require fault localization or full model retraining, both expensive in hardware-constrained settings.
 
 **STAR** (astrocyte-inspired STate-Augmented Repair) addresses this by drawing inspiration from astrocytic neuromodulation in biological neural circuits. Astrocytes in the brain detect deviations in population activity and drive compensatory responses; STAR instantiates an analogous mechanism within the Equilibrium Propagation (EP) training framework: before deployment, a compact snapshot of the healthy model's internal states is stored, and after faults appear, this snapshot guides retraining to recover accuracy with no knowledge of which memory cells are broken.
 
