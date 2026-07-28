@@ -40,6 +40,7 @@ def get_scholar_citations() -> None:
     """Fetch and update Google Scholar citation data."""
     print(f"Fetching citations for Google Scholar ID: {SCHOLAR_USER_ID}")
     today = datetime.now().strftime("%Y-%m-%d")
+    existing_data = None
 
     # Check if the output file was already updated today
     if os.path.exists(OUTPUT_FILE):
@@ -79,6 +80,15 @@ def get_scholar_citations() -> None:
         )
         sys.exit(1)
 
+    citation_data["metadata"]["citations"] = author_data.get("citedby", 0)
+    citation_data["metadata"]["hindex"] = author_data.get("hindex", 0)
+    citation_data["metadata"]["i10index"] = author_data.get("i10index", 0)
+    print(
+        f"Author stats - Citations: {citation_data['metadata']['citations']}, "
+        f"h-index: {citation_data['metadata']['hindex']}, "
+        f"i10-index: {citation_data['metadata']['i10index']}"
+    )
+
     if "publications" not in author_data:
         print(f"No publications found in author data for user ID '{SCHOLAR_USER_ID}'.")
         sys.exit(1)
@@ -109,7 +119,13 @@ def get_scholar_citations() -> None:
             )
 
     # Compare new data with existing data
-    if existing_data and existing_data.get("papers") == citation_data["papers"]:
+    if (
+        existing_data
+        and existing_data.get("papers") == citation_data["papers"]
+        and existing_data.get("metadata", {}).get("citations") == citation_data["metadata"]["citations"]
+        and existing_data.get("metadata", {}).get("hindex") == citation_data["metadata"]["hindex"]
+        and existing_data.get("metadata", {}).get("i10index") == citation_data["metadata"]["i10index"]
+    ):
         print("No changes in citation data. Skipping file update.")
         return
 

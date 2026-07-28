@@ -36,17 +36,17 @@ Outside of academia, my interest in health translates into a personal passion fo
 <div class="mt-3">
   <a href="https://scholar.google.com/citations?user=npbfYnMAAAAJ" target="_blank" rel="noopener noreferrer" class="scholar-stats-bar">
     <div class="scholar-stat">
-      <span class="scholar-stat-value">94</span>
+      <span class="scholar-stat-value">{{ site.data.citations.metadata.citations | default: "-" }}</span>
       <span class="scholar-stat-label">Citations</span>
     </div>
     <div class="scholar-stat-divider"></div>
     <div class="scholar-stat">
-      <span class="scholar-stat-value">5</span>
+      <span class="scholar-stat-value">{{ site.data.citations.metadata.hindex | default: "-" }}</span>
       <span class="scholar-stat-label">h-index</span>
     </div>
     <div class="scholar-stat-divider"></div>
     <div class="scholar-stat">
-      <span class="scholar-stat-value">3</span>
+      <span class="scholar-stat-value">{{ site.data.citations.metadata.i10index | default: "-" }}</span>
       <span class="scholar-stat-label">i10-index</span>
     </div>
   </a>
