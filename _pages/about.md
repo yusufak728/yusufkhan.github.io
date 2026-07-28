@@ -27,9 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in Electrical Engineering at The Pennsylvania State University. At my core, I specialize in making AI models more computationally efficient and robust across various environments.
+I am a PhD student in Electrical Engineering at The Pennsylvania State University, working on efficient and reliable machine learning under [Dr. Abhronil Sengupta](https://sites.psu.edu/sengupta/) in the Neuromorphic Computing Lab.
 
-For my doctoral research, I focus heavily on Neuro-AI, exploring how neuroscience-inspired learning and neuromorphic computing can naturally improve fault tolerance and resource efficiency. Beyond my immediate lab work, I am fascinated by the capabilities of large language models and the intersection of AI with healthcare, particularly in biomedical signal analysis.
+My research spans three threads: training algorithms, such as Equilibrium Propagation, that skip the memory-heavy backward pass; software-level repair for AI models deployed on memristive hardware that develops permanent faults (see [STAR]({{ site.baseurl }}/projects/1_project/)); and retrieval-augmented generation, where I build RAG pipelines with Sentence Transformers, FAISS, and HuggingFace. I'm also fascinated by large language models and the intersection of AI with healthcare, particularly biomedical signal analysis.
 
 Outside of academia, my interest in health translates into a personal passion for wellness and longevity. To disconnect, I focus on staying active with strength training, exploring new places, and spending time outdoors hiking.
 

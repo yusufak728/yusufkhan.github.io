@@ -9,7 +9,7 @@ last_name: Khan
 contact_note: >
   Email is the best way to reach me. I typically respond within a day or two.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD student in Electrical Engineering at Penn State. Research on neuromorphic computing, efficient AI, and biologically-plausible learning.
+  PhD student in Electrical Engineering at Penn State, working on efficient and reliable machine learning: backward-pass-free training, hardware-fault repair for AI models, and retrieval-augmented generation.
 footer_text: ""
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
