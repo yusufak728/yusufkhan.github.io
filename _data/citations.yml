@@ -1,8 +1,8 @@
 metadata:
-  citations: 94
+  citations: 92
   hindex: 5
   i10index: 3
-  last_updated: '2026-07-28'
+  last_updated: '2026-08-07'
 papers:
   npbfYnMAAAAJ:2osOgNQ5qMEC:
     citations: 7
@@ -14,7 +14,7 @@ papers:
     year: '2023'
   npbfYnMAAAAJ:UeHWp8X0CEIC:
     citations: 2
-    title: 'Mitigating Truck Driver Fatigue: A Driver Sleepiness Detecting System'
+    title: 'Mitigating truck driver fatigue: A driver sleepiness detecting system'
     year: '2023'
   npbfYnMAAAAJ:d1gkVwhDpl0C:
     citations: 9
@@ -29,11 +29,11 @@ papers:
     title: 'STAR: Astrocyte-Inspired State-Augmented Repair for Supervised Memristive AI Hardware Systems'
     year: '2026'
   npbfYnMAAAAJ:u-x6o8ySG0sC:
-    citations: 40
+    citations: 39
     title: Artificial intelligence based approach for classification of human activities using MEMS sensors data
     year: '2023'
   npbfYnMAAAAJ:u5HHmVD_uO8C:
-    citations: 19
+    citations: 18
     title: Classification of human motion activities using mobile phone sensors and deep learning model
     year: '2022'
   npbfYnMAAAAJ:zYLM7Y9cAGgC:
