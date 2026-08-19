@@ -1,8 +1,8 @@
 metadata:
-  citations: 92
+  citations: 93
   hindex: 5
   i10index: 3
-  last_updated: '2026-08-07'
+  last_updated: '2026-08-19'
 papers:
   npbfYnMAAAAJ:2osOgNQ5qMEC:
     citations: 7
@@ -29,7 +29,7 @@ papers:
     title: 'STAR: Astrocyte-Inspired State-Augmented Repair for Supervised Memristive AI Hardware Systems'
     year: '2026'
   npbfYnMAAAAJ:u-x6o8ySG0sC:
-    citations: 39
+    citations: 40
     title: Artificial intelligence based approach for classification of human activities using MEMS sensors data
     year: '2023'
   npbfYnMAAAAJ:u5HHmVD_uO8C:
